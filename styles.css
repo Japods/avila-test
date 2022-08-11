@@ -89,3 +89,140 @@ body {
   }
 }
 /* purgecss end ignore */
+
+/* Styles Test Japod */
+
+.container-blue {
+  background: linear-gradient(180deg, #f1f4ff 0%, #e1e6f8 100%);
+}
+
+.card-login {
+  background: #fefeff;
+  /* gray-shadow */
+
+  box-shadow: 2px 2px 6px rgba(196, 196, 196, 0.25);
+  border-radius: 30px;
+  width: 500px;
+  height: 700px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-login {
+  width: 317.14px;
+  height: 80px;
+}
+
+.title-login {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.004em;
+
+  color: #394657;
+}
+
+.input-avilatek {
+  border: none;
+  border-bottom: 2px solid #66bae6;
+  outline: none;
+  width: 100%;
+}
+
+.input-avilatek:focus {
+  outline: none !important;
+}
+
+.input-avilatek:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+input::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.004em;
+
+  color: #78828f;
+}
+
+input,
+input:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: #ffffff;
+  /* --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color); */
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0
+    calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow),
+    var(--tw-shadow);
+  border-color: #2563eb;
+}
+
+.forgot-password {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* secondary-400 */
+
+  color: #4baee2;
+}
+
+.button-login {
+  background: #3b59be;
+  border-radius: 10px;
+  width: 170px;
+  height: 44px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.004em;
+  cursor: pointer;
+
+  color: #ffffff;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #2c48a8;
+  height: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  /* BG */
+
+  color: #fbfbfb;
+}
